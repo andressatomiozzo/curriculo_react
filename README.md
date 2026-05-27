@@ -1,6 +1,7 @@
 # 📌 Currículo
 
 Essa é uma landing-page do meu currículo
+*(in construction)*
 
 ---
 
@@ -12,11 +13,9 @@ Essa é uma landing-page do meu currículo
 * Vite
 * React
 
----
+<!-- ---
 
 ## 📸 Preview
-
-*(in construction)*
 
 ```md
 ![preview](./public/preview.png)
@@ -42,9 +41,9 @@ npm run dev
 ## 🛠️ Melhorias futuras
 
 * [ ] Testes automatizados
-* [ ] Dark mode
+* [ ] Dark mode -->
 
----
+--- 
 
 ## 🙋‍♀️ Autora
 
