@@ -1,0 +1,101 @@
+.formacao {
+  background-color: #141414;
+  color: #a3a3a3;
+  margin-top: 40px;
+}
+
+.wrapper {
+  grid-template-columns: 1.35fr 2fr;
+}
+
+.formacaoTexto {
+  font-size: 1.3rem;
+  max-width: 650px;
+}
+
+.bold {
+  font-weight: bold;
+  color: #c2c2c2;
+}
+
+.formacaoLista {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cursosWrapper {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
+.cursosWrapper h3::before {
+  background: url("../assets/svg/curso.svg");
+}
+
+.cursosContent {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  margin-top: 30px;
+}
+
+.cursosItem {
+  text-transform: uppercase;
+  background-color: #292929;
+  color: #ccc;
+  padding: 12px 25px;
+  min-width: 160px;
+  text-align: center;
+  margin: 10px 20px;
+  border-radius: 5px;
+  font-weight: 400;
+  font-size: 1.1rem;
+}
+
+.idiomas {
+  grid-column: 1 / -1;
+  position: relative;
+}
+
+.idiomas h3::before {
+  background: url("../assets/svg/idiomas.svg");
+}
+
+.idiomas p {
+  margin: 20px 30px;
+  padding-left: 20px;
+}
+
+.idiomas strong {
+  color: white;
+}
+
+@media (max-width: 1125px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+
+  .formacaoTexto {
+    margin: 0 auto 30px auto;
+  }
+
+  .formacaoLista {
+    gap: 20px;
+  }
+}
+
+@media (max-width: 675px) {
+  .formacaoTexto {
+    font-size: 1.1rem;
+  }
+    .formacaoLista {
+    grid-template-columns: 1fr;
+    margin: auto;
+  }
+}
+
+@media (max-width: 550px) {
+
+}

@@ -10,13 +10,13 @@ import github from "../assets/svg/github.svg?react";
 
 const Introduction = () => {
   return (
-    <main className={styles.wrapper}>
+    <section className={styles.wrapper}>
       <div>
         <img src={MyPhoto} alt="Andressa" className={styles.myPhoto} />
       </div>
 
       <div className={`${styles.card} ${styles.helloCard}`}>
-        <div className={styles.hand}>👋</div>{" "}
+        <div className={styles.hand}>👋</div>
         <p>
           Olá, eu sou <strong>ANDRESSA</strong>
         </p>
@@ -31,25 +31,7 @@ const Introduction = () => {
       <ImgTecnologies src={react} alt="react" className={styles.react} />
       <ImgTecnologies src={git} alt="git" className={styles.git} />
       <ImgTecnologies src={github} alt="github" className={styles.github} />
-      {/* <div class="icon icon-html">
-          <img src="figma/html.svg" />
-        </div>
-        <div class="icon icon-css">
-          <img src="figma/css.svg" />
-        </div>
-        <div class="icon icon-js">
-          <img src="figma/js.svg" />
-        </div>
-        <div class="icon icon-react">
-          <img src="figma/react.svg" />
-        </div>
-        <div class="icon icon-git">
-          <img src="figma/git.svg" />
-        </div>
-        <div class="icon icon-github">
-          <img src="figma/github.svg" />
-        </div> */}
-    </main>
+    </section>
   );
 };
 

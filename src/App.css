@@ -51,7 +51,7 @@ a {
   word-break: break-all;
 }
 
-/* .h3-pequeno {
+.littleTitle {
   font-size: 0.73rem;
   text-transform: uppercase;
   color: #8f8f8f;
@@ -59,7 +59,7 @@ a {
   margin-left: 30px;
 }
 
-.h3-pequeno::before {
+.littleTitle::before {
   display: block;
   content: "";
   width: 24px;
@@ -67,7 +67,7 @@ a {
   position: absolute;
   left: 0px;
   top: 65px;
-} */
+}
 
 @media (max-width: 1125px) {
   .secao {

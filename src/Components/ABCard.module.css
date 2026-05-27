@@ -1,0 +1,53 @@
+.wrapper {
+  background-color: black;
+  height: 160px;
+  width: 180px;
+  padding: 20px;
+  border-radius: 5px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wrapper::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background-image: linear-gradient(#ff0033, #561515);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.title {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  margin-bottom: 10px;
+}
+
+.course {
+  color: white;
+  font-size: 1.125rem;
+}
+
+.graduation {
+  display: flex;
+  flex-direction: column;
+}
+
+.year {
+  font-size: 0.875rem;
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 160px;
+  }
+}
+
+@media (max-width: 675px) {
+  .wrapper{
+    margin: auto;
+  }
+}
