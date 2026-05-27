@@ -1,16 +1,52 @@
-# React + Vite
+# 📌 Currículo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Essa é uma landing-page do meu currículo
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tecnologias utilizadas
 
-## React Compiler
+* HTML 5
+* CSS 3
+* Javacript
+* Vite
+* React
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 📸 Preview
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+*(in construction)*
+
+```md
+![preview](./public/preview.png)
+```
+
+---
+
+## ⚙️ Como rodar o projeto
+
+```bash
+# Clonar o repositório
+git clone https://github.com/andressatomiozzo/curriculo_react.git
+
+# Instalar dependências
+npm install
+
+# Rodar o projeto
+npm run dev
+```
+
+---
+
+## 🛠️ Melhorias futuras
+
+* [ ] Testes automatizados
+* [ ] Dark mode
+
+---
+
+## 🙋‍♀️ Autora
+
+Feito por Andressa Tomiozzo 💙
+[LinkedIn](https://www.linkedin.com/in/andressa-tomiozzo/)
