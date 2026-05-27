@@ -1,0 +1,26 @@
+.experiencia{
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.subtitulo {
+  margin: auto 0;
+  color: #ffffff;
+}
+
+@media (max-width: 1125px) {
+  .subtitulo {
+    padding: 30px;
+    margin: auto;
+    letter-spacing: 0.5rem;
+  }
+}
+
+@media (max-width: 1125px) {
+  .experiencia {
+    grid-template-columns: 1fr;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,85 @@
+.empresa {
+  background-color: #f5f5f5;
+  padding: 20px;
+  margin: 20px 20px 20px 80px;
+  border-radius: 5px;
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 10px 20px;
+  position: relative;
+}
+
+.empresa::before {
+  content: "";
+  width: 4px;
+  height: 20px;
+  background-image: linear-gradient(#ff0033, #561515);
+  position: absolute;
+  top: 20px;
+  left: -4px;
+}
+
+.ano {
+  position: absolute;
+  top: 20px;
+  left: -80px;
+}
+
+.titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+.texto {
+  font-size: 0.875rem;
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: start;
+}
+
+.habilidades li {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ffffff;
+}
+
+@media (max-width: 1125px) {
+  .empresa {
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 684px) {
+  .empresa {
+    margin: 10px;
+  }
+  .ano {
+    position: initial;
+    grid-column: 1 / -1;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 620px) {
+  .empresa {
+    grid-template-columns: 1fr;
+    gap: 5px;
+  }
+
+  .titulo {
+    padding-top: 10px;
+  }
+
+  .texto {
+    grid-area: 3/1;
+  }
+
+  .habilidades li {
+    font-size: 0.875rem;
+  }
+}
