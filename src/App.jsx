@@ -1,3 +1,4 @@
+import "./App.css"
 import Header from "./Pages/Header"
 import Introduction from "./Pages/Introduction"
 import AcademicBackground from "./Pages/AcademicBackground"

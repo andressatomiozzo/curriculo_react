@@ -1,10 +1,11 @@
-import Marca from "../assets/svg/marca_2.svg"
+import styles from "./Header.module.css"
+import Marca from "../assets/svg/marca_2.svg?react"
 
 const Header = () => {
   return (
-    <header>
-      <img id="logo" src={Marca} alt="Andressa" />
-      <ul id="header_menu">
+    <header className={styles.header}>
+      <img src={Marca} alt="Andressa" className={styles.logo}/>
+      <ul className={styles.menu}>
         <li>
           <a href="#formacao">Formação</a>
         </li>
