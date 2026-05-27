@@ -1,0 +1,158 @@
+.wrapper {
+  position: relative;
+  max-width: 800px;
+  max-height: 800px;
+  margin: 50px auto 0 auto;
+}
+
+.myPhoto {
+  width: 100%;
+  border-radius: 50%;
+  position: relative;
+}
+
+.card {
+  position: absolute;
+  background: white;
+  padding: 17px 34px;
+  border-radius: 5px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #8f8f8f;
+}
+
+.helloCard {
+  display: flex;
+  width: 300px;
+  left: -200px;
+  top: 360px;
+}
+
+.hand {
+  font-size: 3.5rem;
+}
+
+.helloCard strong {
+  font-size: 2.5rem;
+  color: #141414;
+  line-height: 0.95;
+}
+
+.webCard {
+  font-weight: 400;
+  width: 200px;
+  right: -90px;
+  bottom: 80px;
+}
+
+.webCard strong {
+  color: #525252;
+}
+
+/* Ícones */
+
+.html {
+  top: 0px;
+  right: 236px;
+}
+.css {
+  top: 0px;
+  left: 236px;
+}
+.js {
+  top: 160px;
+  right: 32px;
+}
+.react {
+  width: 60px;
+  bottom: 340px;
+  right: -20px;
+}
+.git {
+  width: 60px;
+  bottom: 120px;
+  left: 70px;
+}
+.github {
+  width: 55px;
+  top: 160px;
+  left: 32px;
+}
+
+@media (max-width: 1200px) {
+  .card {
+    position: absolute;
+    padding: 12px 24px;
+    font-size: 1rem;
+  }
+  .hand {
+    font-size: 2.5rem;
+  }
+  .helloCard {
+    left: 0px;
+    top: 0px;
+  }
+  .helloCard strong {
+    font-size: 2rem;
+  }
+  .webCard {
+    right: 0px;
+    bottom: 50px;
+  }
+
+  /* -----ICONES----- */
+
+  .html {
+    top: 25px;
+    right: 150px;
+  }
+  .css {
+    top: 230px;
+    left: 0px;
+  }
+  .js {
+    top: 230px;
+    right: 5px;
+  }
+  .github {
+    top: 500px;
+    left: 0px;
+  }
+  .react {
+    bottom: 230px;
+    right: 0px;
+  }
+  .git {
+    bottom: 60px;
+    left: 110px;
+  }
+}
+
+@media (max-width: 700px) {
+  .card {
+    font-size: 0.8rem;
+  }
+  .hand {
+    font-size: 2rem;
+  }
+  .helloCard{
+    width: 180px;
+  }
+  .helloCard strong {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .introducao {
+    margin-top: 60px;
+  }
+
+  .helloCard {
+    top: -50px;
+  }
+  .webCard {
+    bottom: 0px;
+  }
+}

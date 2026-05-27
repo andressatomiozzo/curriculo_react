@@ -1,1 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free 7.0.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 96L162.9 491.8L319.5 544L477.1 491.8L512 96L128 96zM436.2 223.9L252.4 223.9L256.5 273.3L432.1 273.3L418.5 421.7L320.6 448.7L320.6 449L319.5 449L220.8 421.7L214.8 345.9L262.5 345.9L266 384L319.5 398.5L373.2 384L379.2 321.8L212.3 321.8L199.5 176.2L440.6 176.2L436.2 223.9z"/></svg>
+<svg width="45" height="52" viewBox="0 0 45 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_9_5)">
+<path d="M0 0L4.13074 46.3828L22.6658 52.5L41.3193 46.3828L45.45 0H0ZM36.4784 14.9883H14.7239L15.2092 20.7773H35.9931L34.3834 38.168L22.796 41.332V41.3672H22.6658L10.9837 38.168L10.2736 29.2852H15.9193L16.3336 33.75L22.6658 35.4492L29.0217 33.75L29.7319 26.4609H9.97769L8.46269 9.39844H36.9991L36.4784 14.9883Z" fill="url(#paint0_linear_9_5)"/>
+</g>
+<defs>
+<linearGradient id="paint0_linear_9_5" x1="22.725" y1="0" x2="22.725" y2="52.5" gradientUnits="userSpaceOnUse">
+<stop stop-color="#FF7A1D"/>
+<stop offset="1" stop-color="#FF5C19"/>
+</linearGradient>
+<clipPath id="clip0_9_5">
+<rect width="45" height="52" fill="white"/>
+</clipPath>
+</defs>
+</svg>
