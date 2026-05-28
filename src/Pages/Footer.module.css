@@ -1,0 +1,66 @@
+.footer {
+  background-color: #fff;
+}
+
+.footer a {
+  text-decoration: underline;
+}
+
+.wrapper {
+  grid-template-columns: 1fr;
+  text-align: center;
+  gap: 3rem;
+  padding-bottom: 2rem;
+}
+
+.informacao {
+  font-size: 0.875rem;
+}
+
+.contato {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  font-size: 0.875rem;
+}
+
+.bold {
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.contato p:nth-child(1) {
+  grid-column: 1/4;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.contatoContent {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.icon {
+  height: 35px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+.github {
+  width: 36px;
+  background-image: url("../assets/svg/github.svg");
+}
+
+.linkedin {
+  width: 35px;
+  background-image: url("../assets/svg/linkedin.svg");
+}
+
+@media (max-width: 450px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}

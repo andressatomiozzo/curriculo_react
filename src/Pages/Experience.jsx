@@ -3,7 +3,7 @@ import styles from "./Experience.module.css";
 
 const Experience = () => {
   return (
-    <section className={styles.experiencia} id="experiencia" aria-label="Experiência">
+    <section className={`secao ${styles.experiencia}`} id="experiencia" aria-label="Experiência">
       <h2 className={`subtitulo ${styles.subtitulo}`}>Experiência</h2>
       <div>
         <ExperienciaCard
