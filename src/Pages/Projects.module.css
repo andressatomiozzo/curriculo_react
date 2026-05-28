@@ -1,0 +1,10 @@
+.projetos {
+  display: block;
+  position: relative;
+}
+
+.projetos h3::before {
+  margin-top: 40px;
+  margin-left: 20px;
+  background: url("../assets/svg/projetos.svg");
+}

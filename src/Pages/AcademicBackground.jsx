@@ -23,13 +23,15 @@ const AcademicBackground = () => {
         <div className={styles.cursosWrapper}>
           <h3 className="littleTitle">Cursos intensivos</h3>
           <ul className={styles.cursosContent} >
-            <li className={styles.cursosItem} >HTML e CSS</li>
+            <li className={styles.cursosItem} >HTML</li>
+            <li className={styles.cursosItem} >CSS</li>
             <li className={styles.cursosItem}>Algoritmo</li>
             <li className={styles.cursosItem}>JavaScript</li>
+            <li className={styles.cursosItem}>TypeScript</li>
             <li className={styles.cursosItem}>React</li>
             <li className={styles.cursosItem}>Design</li>
-            <li className={styles.cursosItem}>Git e GitHub</li>
-            <li className={styles.cursosItem}>Inteligência Artificial</li>
+            <li className={styles.cursosItem}>Git</li>
+            <li className={styles.cursosItem}>GitHub</li>
           </ul>
         </div>
         <div className={styles.idiomas} >
