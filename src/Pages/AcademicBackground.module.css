@@ -53,6 +53,12 @@
   font-size: 1.1rem;
 }
 
+.cursosItem:hover {
+  cursor: pointer;
+  background-color: #141414;
+  box-shadow: 0 0 7px #868686;
+}
+
 .idiomas {
   grid-column: 1 / -1;
   position: relative;

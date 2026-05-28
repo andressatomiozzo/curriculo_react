@@ -10,7 +10,7 @@ import github from "../assets/svg/github.svg?react";
 
 const Introduction = () => {
   return (
-    <section className={styles.wrapper}>
+    <section className={`animeLeft ${styles.wrapper}`}>
       <div>
         <img src={MyPhoto} alt="Andressa" className={styles.myPhoto} />
       </div>

@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Noto+Sans+JP:wght@100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=swap");
 
-html{
+html {
   padding: 0px;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -11,6 +12,7 @@ body {
   padding: 0px;
   color: #141414;
   background-color: #f0f0f0;
+  position: relative;
 }
 
 h1,
@@ -25,7 +27,6 @@ ul {
   padding: 0px;
   list-style: none;
 }
-
 
 img {
   max-width: 100%;
@@ -71,7 +72,7 @@ a {
   top: 65px;
 }
 
-.hidden{
+.hidden {
   display: none;
 }
 
@@ -86,5 +87,18 @@ a {
     padding: 30px;
     margin: auto;
     letter-spacing: 0.5rem;
+  }
+}
+
+.animeLeft {
+  opacity: 0;
+  transform: scale(0.8);
+  animation: animeLeft 1.5s forwards;
+}
+
+@keyframes animeLeft {
+  to {
+    opacity: initial;
+    transform: initial;
   }
 }
