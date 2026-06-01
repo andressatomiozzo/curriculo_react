@@ -6,11 +6,13 @@ import apple from "../assets/projetos/apple.png";
 import velo_e_vogue from "../assets/projetos/velo_e_vogue.png";
 import viva_decor from "../assets/projetos/viva_decor.png";
 import dogs from "../assets/projetos/dogs.png";
+import typing from "../assets/projetos/typing_speed_test.png";
 
 const Carrossel = () => {
   const [indexAtual, setIndexAtual] = React.useState(0);
   const imagens = [
     { img: dogs, link: "https://dogs-wine.vercel.app/" },
+    { img: typing, link: "https://andressatomiozzo.github.io/typing-speed-test/" },
     { img: apple, link: "https://andressatomiozzo.github.io/clone-apple/" },
     { img: velo_e_vogue, link: "https://andressatomiozzo.github.io/projeto-velo-e-vogue/" },
     { img: viva_decor, link: "https://andressatomiozzo.github.io/projeto-interior_design/" },
@@ -60,7 +62,7 @@ const Carrossel = () => {
           }
 
           return (
-            <a key={i} href={imagem.link} onClick={active ? null : () => handleLinkClick(event, i)}>
+            <a key={i} href={imagem.link} target="_blank" onClick={active ? null : () => handleLinkClick(event, i)}>
               <img src={imagem.img} alt={`Imagem ${i + 1}`} className={`${styles.img} ${classe}`} />
             </a>
           );
