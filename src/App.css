@@ -3,7 +3,7 @@
 
 html {
   padding: 0px;
-  scroll-behavior: smooth;
+  scroll-behavior: smooth; /* scroll suave */
 }
 
 body {
